@@ -10,7 +10,7 @@
     <title>Complex Table Schedule</title>
 </head>
 <body>
-    <table>
+    <table class = "outer-table">
         <thead>
             <tr>
                 <th rowspan = "3">Day</th>
@@ -42,7 +42,20 @@
                 <td rowspan = "3">Tuesday</td>
                 <td>8:00 a.m.</td>
                 <td>11:00 a.m.</td>
-                
+                <td class = "special-cell" rowspan = "3">
+                    <table class = "inner-table inner-table-a">
+                        <tr>
+                            <td class = "special-data center-text">XPath</td>
+                             
+                        </tr>
+                        
+                    </table>
+                    <table class = "inner-table inner-table-b">
+                        <tr>
+                            <td class = "special-data center-text">XSL Transformations</td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
             <tr>
                 <td>11:00 a.m.</td>

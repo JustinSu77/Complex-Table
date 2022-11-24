@@ -1,8 +1,36 @@
-table{
+.outer-table{
     border: 1px solid black;
     width: 450px;
     
 }
+.inner-table{
+
+   height: 50%;
+   width: 101%;
+     
+    border: 1px solid black;
+}
+
+.special-data{
+    border: none;
+}
+ .special-cell{
+    border:none;
+    height: 75px;
+    width: 205px;
+ }
+
+.inner-table-a{
+    position: relative;
+    bottom: 1px;
+    right: 1px;
+} 
+
+.inner-table-b{
+    position: relative;
+    top: 1px;
+    right: 1px;
+} 
 
 td,th{
     border: 1px solid black;
